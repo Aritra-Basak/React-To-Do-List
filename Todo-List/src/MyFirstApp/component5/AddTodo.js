@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import {Link, Routes, Route, useNavigate} from 'react-router-dom';
+
 
 export default function AddTodo(props) {
     const[title,setTitle]=useState("");
     const[desc,setDesc]=useState("");
+    const navigate = useNavigate();
     const submit=(e)=>
     {
         e.preventDefault(); //Stopping the page reload on submit of the current form
@@ -15,6 +18,7 @@ export default function AddTodo(props) {
         props.addMyTodo(title,desc);
         setTitle("");
         setDesc("");
+        navigate('/'); // navigate to the respective url after submission.
         }
     }
   return (
