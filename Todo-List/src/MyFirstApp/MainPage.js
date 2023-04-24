@@ -82,9 +82,9 @@ export default function MainPage() {
             <div className='mainContainer' id={theme}>
               {/* This is an empty tag, like while importing components we should always wrap them inside some tags like div, else we can use empty tags */}
               
-                <TodoNav title="<--To-Do's List-->" searchbar={true} toggleTheme={toggleTheme} theme={theme}/> {/*By using Props we are passing the title value to the TodoNav component */}
+                <TodoNav title="<--To-Do's List-->"  toggleTheme={toggleTheme} theme={theme}/> {/*By using Props we are passing the title value to the TodoNav component */}
                 <Routes>
-                <Route exact path='/' element={<Todos todoval={todos} onDelete={onDelete} />}/>
+                <Route exact path='/' element={<Todos todoval={todos} onDelete={onDelete} searchbar={true} />}/>
                 <Route exact path='/add' element={<AddTodo addMyTodo={addMyTodo}/>}/>
                   
                 </Routes>
