@@ -1,0 +1,54 @@
+.mainContainer
+{
+   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+/* Css for main page's background */
+#light
+{
+    background-color: #DDDDDD;
+}
+#dark
+{
+    background-color: #6B728E;
+}
+/* Css for navbar's background */
+#dark .container1 nav
+{
+    background-color: #474E68;
+}
+#light .container1 nav
+{
+    background-color: #8787A3;
+}
+/* Css for Todo container's background */
+#dark .Todocontainer
+{
+    background-color: #474E68;
+}
+#light .Todocontainer
+{
+    background-color: #DBD8E3;
+}
+/* Css for OnlyTodo's background */
+#dark .OnlyToDoContainer
+{
+    background-color: #474E68
+}
+#light .OnlyToDoContainer
+{
+    background-color: #DBD8E3;
+}
+/* Css for footer's background */
+#dark .foot-container
+{
+    background-color: #474E68;
+}
+#light .foot-container
+{
+    background-color: #8787A3;
+}
