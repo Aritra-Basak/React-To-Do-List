@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#This project has been developed from scratch using React.js, showcasing various features such as React Router, localStorage management, useState, and useEffect hooks.
+# This project has been developed from scratch using React.js, showcasing various features such as React Router, localStorage management, useState, and useEffect hooks.
 
-#Deployment
+# Deployment
 The project is deployed on GitHub Pages using the following simple steps:
 1. Use: 'npm install gh-pages --save-dev'to add the Github Pages Dependencies.
 2. In package.json add "homepage": "https://<Username>.github.io/<Repository-name>" before the "name" object.
